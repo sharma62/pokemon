@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Card = () => {
+     
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,7 +30,7 @@ const Card = () => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="/">Disabled</a>
+                                <a className="nav-link " href="/">Next</a>
                             </li>
                         </ul>
                         <form className="d-flex">

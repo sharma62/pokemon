@@ -1,18 +1,24 @@
 import React from 'react'
 
-const Card = () => {
-    return (
-        <div>
-            <div className="card" style={{ width: "18rem"  }}>
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="/" className="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+const Card = (props) => {
+    console.log(props.value)
 
-        </div>
+    return (
+        <>
+            <div className="col-sm col-md col-lg py-3 mx-auto " >
+                <a href="/">
+                    <div className="card" style={{ width: "15rem" }}>
+                        <img src={props.value.images.small} className="card-img-top" alt={props.value.name} />
+                        <div className="card-body">
+                            <h5 className="card-title">{props.value.name}</h5>
+                        </div>
+                    </div>
+
+                </a>
+
+            </div>
+        
+        </>
     )
 }
 
