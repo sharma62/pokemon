@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {  Link } from "react-router-dom";
 const CardDetails = (props) => {
     console.log(props.currPlayer);
 
@@ -63,11 +63,11 @@ const CardDetails = (props) => {
  
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
                   
+                       <Link to="/" className='btn btn-primary mt-3 ml-none'>Back</Link> 
                 </div>
             </div>
         </>
