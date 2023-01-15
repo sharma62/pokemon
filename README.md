@@ -2,7 +2,7 @@
  > Website: https://63b7fae78c35391de90ba0e4--stupendous-dasik-cde05e.netlify.app/
 
  > Problem statment
- Coding Assessment – Frontend developer - Save Eco Organic Pvt. Ltd.
+ Coding Assessment –
 Given an API for Pokémon listing. Make two pages in Vue/React. On the first page, display cards for each Pokémon with name and image. On click of the Name of the Pokémon, redirect to second page where some important details of the Pokémon are being displayed like Name, Image, Level, HP, Abilities, Attacks etc.
 
 API link : `https://api.pokemontcg.io/v2/cards?page=1&pageSize=100`
