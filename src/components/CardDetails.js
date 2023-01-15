@@ -15,10 +15,12 @@ const CardDetails = () => {
     }
     useEffect(() => {
         getCurrPlayers();
-    }, [getCurrPlayers]);
+    }, );
 
 
-    currPlayer && console.log(currPlayer)
+
+
+    // currPlayer && console.log(currPlayer)
     // task insert the data in card 
 
     return (
@@ -46,7 +48,7 @@ const CardDetails = () => {
                                     <label htmlFor="" className='mx-2'>Hp</label>
                                     <input type="text" value={currPlayer.data.hp} disabled style={{ width: "7vmax" }} />
 
-                                </div>
+                                </div> 
                             </div>
                             <div className="row">
                                 <p className='text-center py-1'>Weaknesses</p>
