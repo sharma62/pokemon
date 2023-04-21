@@ -21,7 +21,8 @@ It would be great if using the same API, you can enable a pagination on the scre
 3. Create Three functional component and export them in App component .
 4. 1st is `Card.js` &  2nd one is `CardDetails.js`.
 5. Inside `Card.js` a UI Componenet & other one is show the entire Details of Card.
-6. Using Fetch API method to fetch the details using the given link and show all data in `Card.js` component
+6. Using Fetch API method to fetch the details using the given link and show all data in `Card.js` component.
+
 7. If You click on any card you redirect to `CardDatils.js` and show all the data.
 # want to contribute
 > Rules
