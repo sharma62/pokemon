@@ -11,6 +11,7 @@ API link : `https://api.pokemontcg.io/v2/cards?page=1&pageSize=100`
 3. Please write clean codes with proper indention.
 4. Please keep in mind that it is a front-end task. Make proper UI and implement proper UX.
 
+____
 BONUS POINTS (Not Mandatory)
 It would be great if using the same API, you can enable a pagination on the screen one. Else, you can only display the first 100 Pokémon in the manner asked above.
 
