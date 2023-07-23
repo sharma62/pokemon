@@ -29,7 +29,5 @@ It would be great if using the same API, you can enable a pagination on the scre
 > Rules
 
 # Add feature 
-> Page Navigation
-> Embed Animation
->
-> 
+* Page Navigation
+* Embed Animation
